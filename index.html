@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0d10">
+<meta name="description" content="Portfólio de Victor Gabriel — estudante de Ciência da Computação, projetos e desenvolvimento de soluções com tecnologia.">
+<title>Victor Gabriel — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0d10;--panel:#10161b;--panel2:#131b21;--text:#edf2f4;--muted:#99a7af;--line:#26333a;--accent:#71d6c2;--accent2:#b2eee2;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--text);font-family:"Source Sans 3",sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.wrap{width:min(var(--max),calc(100% - 44px));margin-inline:auto}.nav{position:fixed;z-index:20;inset:0 0 auto;background:rgba(10,13,16,.72);border-bottom:1px solid transparent;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:border-color .25s,background .25s}.nav.scrolled{border-color:rgba(153,167,175,.13);background:rgba(10,13,16,.92)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font:600 20px Outfit,sans-serif;letter-spacing:-.04em}.brand span{color:var(--accent)}.nav-links{display:flex;align-items:center;gap:28px;color:var(--muted);font-size:15px}.nav-links a{transition:color .2s}.nav-links a:hover{color:var(--accent)}.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 11px;font:inherit}.hero{min-height:690px;display:flex;align-items:center;padding:145px 0 105px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:540px;height:540px;right:-190px;top:40px;border:1px solid rgba(113,214,194,.12);border-radius:50%;box-shadow:0 0 0 65px rgba(113,214,194,.025),0 0 0 130px rgba(113,214,194,.018);pointer-events:none}.hero:after{content:"";position:absolute;right:7%;top:28%;width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 28px var(--accent);opacity:.8}.eyebrow{display:flex;align-items:center;gap:11px;text-transform:uppercase;letter-spacing:.17em;font-size:12px;font-weight:700;color:var(--accent)}.eyebrow:before{content:"";width:28px;height:1px;background:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font:600 clamp(48px,7vw,82px)/1.04 Outfit,sans-serif;letter-spacing:-.055em;max-width:800px;margin:25px 0 24px}h1 .accent{color:var(--accent)}.hero-copy{max-width:610px;color:#aab6bd;font-size:20px;line-height:1.65;margin-bottom:32px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 18px;border:1px solid var(--line);border-radius:7px;font-size:15px;font-weight:600;transition:transform .2s,border-color .2s,background .2s,color .2s}.btn:hover{transform:translateY(-2px);border-color:var(--accent)}.btn.primary{background:var(--accent);color:#09211d;border-color:var(--accent)}.btn.primary:hover{background:var(--accent2)}.btn svg,.text-link svg{width:16px;height:16px;flex-shrink:0}.hero-note{margin-top:66px;display:flex;gap:12px;align-items:center;color:var(--muted);font-size:14px}.status-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px rgba(113,214,194,.5)}section{padding:95px 0;border-top:1px solid rgba(153,167,175,.12)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:42px}.section-index{color:var(--accent);font-size:12px;letter-spacing:.16em;font-weight:700;text-transform:uppercase;margin-bottom:12px}.section-title{font:600 clamp(31px,4vw,46px)/1.15 Outfit,sans-serif;letter-spacing:-.04em;margin-bottom:0}.section-intro{max-width:420px;color:var(--muted);margin:0;font-size:16px}.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:75px;align-items:start}.about-text{color:#b1bdc3;font-size:18px}.about-text p{margin-bottom:20px}.about-text strong{color:var(--text);font-weight:600}.skill-panel{padding:25px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.skill-panel h3{font:500 19px Outfit,sans-serif;margin-bottom:17px}.tags{display:flex;flex-wrap:wrap;gap:9px}.tag{display:inline-flex;align-items:center;padding:6px 10px;border-radius:5px;background:#172128;border:1px solid #293940;color:#c6d4d8;font-size:13px;line-height:1.4}.tag.accent-tag{border-color:rgba(113,214,194,.32);color:var(--accent2);background:rgba(113,214,194,.07)}.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:25px;min-height:290px;display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s;position:relative;overflow:hidden}.project:hover{transform:translateY(-5px);border-color:rgba(113,214,194,.55);background:#121a1f}.project-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}.project-mark{width:44px;height:44px;display:grid;place-items:center;border-radius:8px;background:rgba(113,214,194,.09);color:var(--accent);border:1px solid rgba(113,214,194,.2)}.project-mark svg{width:23px;height:23px}.project-type{font-size:12px;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}.project h3{font:500 24px Outfit,sans-serif;letter-spacing:-.025em;margin-bottom:10px}.project p{color:var(--muted);font-size:16px;margin-bottom:23px}.project .tags{margin-top:auto;margin-bottom:23px}.text-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:15px;width:max-content}.text-link:hover{color:var(--accent2)}.project-note{color:var(--muted);font-size:13px;margin-top:24px}.experience-empty{display:grid;grid-template-columns:60px 1fr;gap:22px;padding:28px 0;border-top:1px solid var(--line)}.experience-empty:last-child{border-bottom:1px solid var(--line)}.timeline-symbol{width:42px;height:42px;border:1px solid rgba(113,214,194,.3);background:rgba(113,214,194,.07);color:var(--accent);border-radius:50%;display:grid;place-items:center}.timeline-symbol svg{width:20px;height:20px}.experience-empty h3{font:500 21px Outfit,sans-serif;margin:0 0 5px}.experience-empty .meta{font-size:14px;color:var(--accent);margin-bottom:10px}.experience-empty p{color:var(--muted);margin:0;max-width:760px}.contact-box{display:flex;align-items:center;justify-content:space-between;gap:35px;padding:38px;background:var(--panel);border:1px solid var(--line);border-radius:12px}.contact-box h2{font:600 clamp(28px,4vw,42px)/1.15 Outfit,sans-serif;letter-spacing:-.04em;margin-bottom:12px}.contact-box p{color:var(--muted);margin:0;max-width:510px}.contact-actions{display:flex;gap:10px;flex-wrap:wrap;flex-shrink:0}footer{padding:27px 0;color:var(--muted);font-size:14px}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-links{display:flex;gap:20px}.footer-links a:hover{color:var(--accent)}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:translateY(0)}.delay-1{transition-delay:.08s}.delay-2{transition-delay:.16s}.delay-3{transition-delay:.24s}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:760px){.wrap{width:min(100% - 36px,var(--max))}.nav-inner{height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 22px 22px;background:rgba(10,13,16,.98);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:17px}.nav-links.open{display:flex}.hero{min-height:auto;padding:125px 0 75px}.hero:before{width:300px;height:300px;right:-180px;top:55px}.hero:after{right:13%;top:18%}.hero-copy{font-size:18px}.hero-note{margin-top:48px}section{padding:72px 0}.section-head{display:block;margin-bottom:30px}.section-intro{margin-top:16px}.about-grid{grid-template-columns:1fr;gap:28px}.projects-grid{grid-template-columns:1fr}.project{min-height:270px}.contact-box{padding:26px;display:block}.contact-actions{margin-top:24px}.footer-inner{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="navbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#inicio" aria-label="Victor Gabriel, início">victor<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#experiencia">Experiência</a><a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="inicio" style="border-top:0">
+    <div class="wrap">
+      <div class="eyebrow reveal">Portfólio profissional</div>
+      <h1 class="reveal delay-1">Victor Gabriel.<br><span class="accent">Tecnologia com propósito.</span></h1>
+      <p class="hero-copy reveal delay-2">Estudante de Ciência da Computação, interessado em transformar problemas reais em soluções digitais. Exploro programação, análise de dados e desenvolvimento de projetos com foco em aprendizado contínuo e resultados práticos.</p>
+      <div class="actions reveal delay-3">
+        <a class="btn primary" href="#projetos">Ver projetos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a class="btn" href="https://www.linkedin.com/in/victor-gabriel-36b4a7254" target="_blank" rel="noopener noreferrer">LinkedIn <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6"/></svg></a>
+        <a class="btn" href="https://github.com/vik831" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.2-1.5 6.2-6.7A5.2 5.2 0 0 0 19 5.1 4.8 4.8 0 0 0 18.9 1S17.7.7 15 2.5a13.5 13.5 0 0 0-7 0C5.3.7 4.1 1 4.1 1A4.8 4.8 0 0 0 4 5.1a5.2 5.2 0 0 0-1.3 3.6c0 5.2 3.2 6.4 6.2 6.7A3.4 3.4 0 0 0 8 18.1V22"/></svg></a>
+      </div>
+      <div class="hero-note reveal delay-3"><span class="status-dot"></span> Ciência da Computação · Universidade Veiga de Almeida</div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="section-index">01 / Sobre mim</div><h2 class="section-title">Curiosidade que vira<br>construção.</h2></div><p class="section-intro">Aprender fazendo: entender o problema, explorar possibilidades e desenvolver uma solução clara e útil.</p></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Sou estudante de <strong>Ciência da Computação</strong> e venho construindo minha trajetória por meio de estudos, projetos acadêmicos e experimentação prática. Tenho interesse em programação, sistemas, dados e na forma como a tecnologia pode simplificar processos.</p>
+          <p>Gosto de organizar problemas complexos em etapas menores, documentar o que desenvolvo e aprender novas ferramentas conforme as necessidades do projeto. Meu portfólio reúne experiências práticas e projetos em evolução.</p>
+          <p><strong>Meu objetivo:</strong> crescer na área de tecnologia, colaborar com equipes e transformar conhecimento técnico em soluções que façam diferença.</p>
+        </div>
+        <aside class="skill-panel reveal delay-1">
+          <h3>Áreas e conhecimentos em desenvolvimento</h3>
+          <div class="tags">
+            <span class="tag accent-tag">Lógica de programação</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span><span class="tag">SQL</span><span class="tag">Banco de dados</span><span class="tag">Power BI</span><span class="tag">Redes de computadores</span><span class="tag">HTML &amp; CSS</span><span class="tag">Git / GitHub</span><span class="tag">Análise de dados</span><span class="tag">Resolução de problemas</span>
+          </div>
+          <p style="font-size:13px;color:var(--muted);margin:18px 0 0">As competências listadas refletem áreas de estudo e prática; o nível de domínio deve ser atualizado conforme sua experiência.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="section-index">02 / Projetos</div><h2 class="section-title">Trabalho em progresso.<br>Aprendizado em prática.</h2></div><p class="section-intro">Projetos e experimentos que demonstram como estudo, lógica e tecnologia se conectam para resolver desafios.</p></div>
+      <div class="projects-grid">
+        <article class="project reveal">
+          <div class="project-top"><div class="project-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5m8-5v5M7 13h3m4 0h3M7 16h3"/></svg></div><span class="project-type">Web · Projeto pessoal</span></div>
+          <h3>Site Dê Dan-a</h3>
+          <p>Repositório de um projeto web pessoal. Consulte o código e os arquivos do projeto para conhecer a proposta, a estrutura da aplicação e as tecnologias efetivamente utilizadas.</p>
+          <div class="tags"><span class="tag accent-tag">GitHub</span><span class="tag">Desenvolvimento web</span><span class="tag">Projeto em evolução</span></div>
+          <a class="text-link" href="https://github.com/vik831/sitededan-a" target="_blank" rel="noopener noreferrer">Explorar repositório <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+        </article>
+        <article class="project reveal delay-1">
+          <div class="project-top"><div class="project-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M17.5 14v7m-3.5-3.5h7"/></svg></div><span class="project-type">Mais projetos</span></div>
+          <h3>Explorações no GitHub</h3>
+          <p>Veja outros repositórios, exercícios e experimentos de programação. O perfil reúne o histórico público de código e permite acompanhar a evolução dos estudos.</p>
+          <div class="tags"><span class="tag accent-tag">Código aberto</span><span class="tag">Estudos</span><span class="tag">Versionamento</span></div>
+          <a class="text-link" href="https://github.com/vik831?tab=repositories" target="_blank" rel="noopener noreferrer">Ver todos os repositórios <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+        </article>
+      </div>
+      <p class="project-note reveal">Nota: só foi informado um repositório específico e não foi possível confirmar seu README e suas linguagens com segurança. A descrição foi mantida deliberadamente genérica para não atribuir funcionalidades ou tecnologias não verificadas.</p>
+    </div>
+  </section>
+
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="section-index">03 / Experiência</div><h2 class="section-title">Experiência e formação.</h2></div><p class="section-intro">Uma trajetória em construção, com foco em desenvolver repertório técnico e aplicar o aprendizado em situações reais.</p></div>
+      <article class="experience-empty reveal">
+        <div class="timeline-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/><path d="M8 7h8M8 11h8"/></svg></div>
+        <div><h3>Ciência da Computação</h3><div class="meta">Universidade Veiga de Almeida · 2026</div><p>Formação acadêmica em andamento, com estudos voltados à computação, programação, fundamentos de sistemas e construção de soluções tecnológicas.</p></div>
+      </article>
+      <article class="experience-empty reveal delay-1">
+        <div class="timeline-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12h18M10 12v2h4v-2"/></svg></div>
+        <div><h3>Experiência profissional</h3><div class="meta">Detalhes a complementar</div><p>Os dados públicos acessíveis nesta consulta não permitiram confirmar cargos, empresas e períodos do perfil do LinkedIn. Adicione aqui suas experiências reais, com responsabilidades e resultados concretos, para deixar esta seção pronta para recrutadores.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <div><div class="section-index">04 / Contato</div><h2>Vamos conversar sobre tecnologia?</h2><p>Estou aberto a conexões, oportunidades de aprendizado e conversas sobre projetos e soluções digitais.</p></div>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://www.linkedin.com/in/victor-gabriel-36b4a7254" target="_blank" rel="noopener noreferrer">Conectar no LinkedIn</a>
+          <a class="btn" href="https://github.com/vik831" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Victor Gabriel. Feito com cuidado.</span><div class="footer-links"><a href="#inicio">Voltar ao topo ↑</a><a href="https://github.com/vik831" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/victor-gabriel-36b4a7254" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
+<script>
+(() => {
+  const nav = document.getElementById('navbar');
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  const updateNav = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+  updateNav();
+  window.addEventListener('scroll', updateNav, {passive:true});
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.textContent = open ? 'Fechar' : 'Menu';
+  });
+  links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.textContent = 'Menu';
+  }));
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -35px 0px'});
+    items.forEach(item => observer.observe(item));
+  } else {
+    items.forEach(item => item.classList.add('visible'));
+  }
+})();
+</script>
+</body>
+</html>
